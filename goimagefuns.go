@@ -1,7 +1,5 @@
 package goimagefuns
 
-import "fmt"
-
-func GetImages()  {
-	fmt.Println("--------------HI-----------")
+func GetImages() string  {
+	return "----------------Hi--------------"
 }
