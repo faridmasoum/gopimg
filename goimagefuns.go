@@ -2,6 +2,6 @@ package goimagefuns
 
 import "fmt"
 
-func getImages()  {
+func GetImages()  {
 	fmt.Println("--------------HI-----------")
 }
