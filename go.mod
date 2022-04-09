@@ -1,3 +1,3 @@
-module github.com/faridmasoum/gopi-image
+module github.com/faridmasoum/gopimage
 
 go 1.18
