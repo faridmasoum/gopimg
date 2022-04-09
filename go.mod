@@ -1,3 +1,3 @@
-module github.com/faridmasoum/gopimg/v1
+module github.com/faridmasoum/gopimg
 
 go 1.18
