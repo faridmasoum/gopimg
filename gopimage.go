@@ -2,6 +2,6 @@ package gopimage
 
 import "fmt"
 
-func main() {
+func gopimage() {
 	fmt.Println("Simple interest calculation")
 }
