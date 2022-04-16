@@ -5,6 +5,17 @@ package goimagefuns
 //	return nil
 //}
 
+const (
+	IMAGE_PATH     = "/uploads/images/vendors/users/app/"
+	APP_IMAGE_THUMBNAIL_TYPE = "vendor_user_app_image_thumbnail"
+	USER_TYPE_ZOODFOOD = "ZOODFOOD"
+	PRODUCT_VARIATION_IMAGE_PATH = "/uploads/images/product-variations/"
+	USER_APP_IMAGE_PATH = "/uploads/images/vendors/users/app/"
+	PRODUCT_VARIATION_APP_THUMBNAIL_IMAGE_TYPE = "product-variation_image_thumbnail"
+	SNAPPMARKET_API_CDN_BASE                          = "https://api.snapp.market"
+
+)
+
 func GetProductVariationThumbnailImage(imageStruct ImageStruct) *string {
 	if imageStruct.FileName != nil {
 		imagePath := IMAGE_PATH
@@ -24,8 +35,8 @@ func GetProductVariationThumbnailImage(imageStruct ImageStruct) *string {
 
 		srcPath := SNAPPMARKET_API_CDN_BASE + "/media/cache/" + filterType + path
 
-		return srcPath
+		return &srcPath
 	} else {
-		return ""
+		return nil
 	}
 }
