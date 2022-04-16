@@ -5,7 +5,7 @@ package goimagefuns
 //	return nil
 //}
 
-func getProductVariationThumbnailImage(imageStruct ImageStruct) string {
+func GetProductVariationThumbnailImage(imageStruct ImageStruct) string {
 	if imageStruct.FileName != nil {
 		imagePath := IMAGE_PATH
 		filterType := APP_IMAGE_THUMBNAIL_TYPE
