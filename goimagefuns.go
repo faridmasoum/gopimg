@@ -1,5 +1,5 @@
 package goimagefuns
 
-func GetImages() string  {
-	return "----------------Hi--------------"
+func GetImages(imageStruct ImageStruct) string  {
+	return imageStruct.Title
 }
