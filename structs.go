@@ -1,6 +1,7 @@
 package goimagefuns
 
 type ImageStruct struct {
-	Id uint
-	Title string
+	FileName string
+	ImageName string
+	UserType string
 }
