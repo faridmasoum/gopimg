@@ -1,4 +1,4 @@
-package goimagefuns
+package gopimg
 
 type ImageStruct struct {
 	FileName *string

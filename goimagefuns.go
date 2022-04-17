@@ -1,4 +1,4 @@
-package goimagefuns
+package gopimg
 
 //func GetProductVariationImage(imageStruct ImageStruct) string  {
 //	// TODO:
