@@ -15,7 +15,6 @@ const (
 	SNAPPMARKET_API_CDN_BASE                   = "https://api.snapp.market"
 )
 
-
 func GetProductVariationThumbnailImage(imageStruct ImageStruct) *string {
 
 	if imageStruct.FileName != nil {
